@@ -4,8 +4,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--<meta name="color-scheme" content="light dark">
-        <meta name="supported-color-schemes" content="light dark">-->
+        <meta name="color-scheme" content="light dark">
+        <meta name="supported-color-schemes" content="light dark">
         <title>HBO MAX Weekend Watch Guide</title>
         <style type="text/css">
             table {
@@ -136,8 +136,18 @@
             }
 
             /* Custom Dark Mode Colors */
+            :root {
+                color-scheme: light dark;
+                supported-color-schemes: light dark;
+            }
             @media (prefers-color-scheme: dark) {
-
+                body, center, span, #white-bg {
+                    background: #2d2d2d!important;
+                    color: #FFFFFF!important;
+                }
+                #footer-links {
+                    background: #000000!important;
+                }
             }
         </style>
         
@@ -193,7 +203,7 @@
 
                     <!-- START OF MAIN SECTION -->
                     <tr>
-                        <td class="main-section" style="padding: 0 30px;">
+                        <td id="white-bg" class="main-section" style="padding: 0 30px;">
                             <table width="100%" style="border-spacing: 0;" role="presentation">
                                 <tr>
                                     <td class="img-padding" style="text-align: center; padding: 30px 0 15px 0;">
@@ -296,7 +306,7 @@
                     <!-- START SATURDAY SECTION -->
                     <tr>
                         <td class="shows" style="padding: 0;">
-                            <table width="100%" style="border-spacing: 0; background-color: #FFFFFF; color: #000000;" role="presentation">
+                            <table id="white-bg" width="100%" style="border-spacing: 0; background-color: #FFFFFF; color: #000000;" role="presentation">
                                 <tr>
                                     <td class="show-title" style="text-align: center; padding: 30px 30px 15px 30px;">
                                         <h1 style="Margin: 0;">Saturday</h1>
@@ -326,15 +336,15 @@
                                         <table class="info-column" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 300px; display: inline-block;" role="presentation">
                                             <tr>
                                                 <td class="info-box" style="padding: 0 30px 0 10px;">
-                                                    <table width="100%" style="border-spacing: 0;" role="presentation">
+                                                    <table id="white-bg" width="100%" style="border-spacing: 0;" role="presentation">
                                                         <tr>
                                                             <td style="text-align: left; padding-bottom: 14px;">
-                                                                <p style="Margin: 0; line-height: 24px; color: #000000!important;"><strong>Young Justice</strong></p>
+                                                                <p style="Margin: 0; line-height: 24px;"><strong>Young Justice</strong></p>
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td style="text-align: left; padding-bottom: 14px;">
-                                                                <p style="Margin: 0; line-height: 19px; color: #000000!important;">This animated drama explores the DC Universe through the eyes of young superheroes as they come of age. <strong>New episodes Thursdays.</strong></p>
+                                                                <p style="Margin: 0; line-height: 19px;">This animated drama explores the DC Universe through the eyes of young superheroes as they come of age. <strong>New episodes Thursdays.</strong></p>
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -430,7 +440,7 @@
                     <!-- START SUNDAY SECTION -->
                     <tr>
                         <td class="shows" style="padding: 0;">
-                            <table width="100%" style="border-spacing: 0; background-color: #FFFFFF; color: #000000;" role="presentation">
+                            <table id="white-bg" width="100%" style="border-spacing: 0; background-color: #FFFFFF; color: #000000;" role="presentation">
                                 <tr>
                                     <td class="show-title" style="text-align: center; padding: 30px 30px 15px 30px;">
                                         <h1 style="Margin: 0;">Sunday</h1>
@@ -460,15 +470,15 @@
                                         <table class="info-column" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 300px; display: inline-block;" role="presentation">
                                             <tr>
                                                 <td class="info-box" style="padding: 0 30px 0 10px;">
-                                                    <table width="100%" style="border-spacing: 0;" role="presentation">
+                                                    <table id="white-bg" width="100%" style="border-spacing: 0;" role="presentation">
                                                         <tr>
                                                             <td style="text-align: left; padding-bottom: 14px;">
-                                                                <p style="Margin: 0; line-height: 24px; color: #000000!important;"><strong>Purple Rain</strong></p>
+                                                                <p style="Margin: 0; line-height: 24px;"><strong>Purple Rain</strong></p>
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td style="text-align: left; padding-bottom: 14px;">
-                                                                <p style="Margin: 0; line-height: 19px; color: #000000!important;">April 21 marks six years since the passing of Prince. Honor his life with the rock musical drama created, scored, and starring the legend himself.</p>
+                                                                <p style="Margin: 0; line-height: 19px;">April 21 marks six years since the passing of Prince. Honor his life with the rock musical drama created, scored, and starring the legend himself.</p>
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -564,7 +574,7 @@
                     <!-- START VEEP SECTION -->
                     <tr>
                         <td class="shows" style="padding: 0;">
-                            <table width="100%" style="border-spacing: 0; background-color: #FFFFFF; color: #000000;" role="presentation">
+                            <table id="white-bg" width="100%" style="border-spacing: 0; background-color: #FFFFFF; color: #000000;" role="presentation">
                                 <tr>
                                     <td class="show-title" style="text-align: center; padding: 30px 30px 15px 30px;">
                                         <h1 style="Margin: 0;">10 Years of <em>Veep</em></h1>
@@ -594,15 +604,15 @@
                                         <table class="info-column" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 300px; display: inline-block;" role="presentation">
                                             <tr>
                                                 <td class="info-box" style="padding: 0 30px 0 10px;">
-                                                    <table width="100%" style="border-spacing: 0;" role="presentation">
+                                                    <table id="white-bg" width="100%" style="border-spacing: 0;" role="presentation">
                                                         <tr>
                                                             <td style="text-align: left; padding-bottom: 14px;">
-                                                                <p style="Margin: 0; line-height: 24px; color: #000000!important;"><strong>Veep</strong></p>
+                                                                <p style="Margin: 0; line-height: 24px;"><strong>Veep</strong></p>
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td style="text-align: left; padding-bottom: 14px;">
-                                                                <p style="Margin: 0; line-height: 19px; color: #000000!important;">Julia Louis-Dreyfus stars as former senator turned Vice President of the United States, Selina Meyer in this beloved HBO comedy.</p>
+                                                                <p style="Margin: 0; line-height: 19px;">Julia Louis-Dreyfus stars as former senator turned Vice President of the United States, Selina Meyer in this beloved HBO comedy.</p>
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -630,8 +640,8 @@
 
                     <!-- START WHERE TO STREAM SECTION -->
                     <tr>
-                        <td class="stream-section" style="padding: 0;">
-                            <table width="100%" style="border-spacing: 0;" role="presentation">
+                        <td id="white-bg" class="stream-section" style="padding: 0;">
+                            <table id="white-bg" width="100%" style="border-spacing: 0;" role="presentation">
                                 <tr>
                                     <td style="padding: 25px 20px 15px 20px; text-align: center;">
                                         <p style="Margin: 0px;"><strong>Where To Stream HBO Max</strong></p>
@@ -747,16 +757,16 @@
                                 <tr>
                                     <td class="footer-links" style="text-align: center; line-height: 21px; font-size: 14px; padding: 15px 0;">
                                         <a href="https://play.hbomax.com/page/urn:hbo:page:home?utm_source=braze&utm_medium=email&utm_campaign=footer" target="_blank">
-                                            <span style="Margin: 0;">HBOMax.com | </span>
+                                            <span id="footer-links" style="Margin: 0;">HBOMax.com | </span>
                                         </a>
                                         <a href="https://www.hbomax.com/privacy?utm_source=braze&utm_medium=email&utm_campaign=footer" target="_blank">
-                                            <span style="Margin: 0;">Privacy Policy | </span>
+                                            <span id="footer-links" style="Margin: 0;">Privacy Policy | </span>
                                         </a>
                                         <a href="https://dashboard-01.braze.com/enc_user/unsubscribe?d=99EBX3WguRwt2V2v%2F8%2FydA%3D%3D%24eyniqjcvNgn4k%2FKny%2BKonYPx7M9TRyJIkH9V61GCaFCsvEuJ%2BFjvv3rG9rhj%0AQi0Kt39SvyKWoD8FF7%2BU78KZadbgZWQ%2BHOoqox8vdvBZ%2Bi32UY0zr82QnRDf%0AqZvHPbcU7ut%2BePC5sU%2Fd8IIkPpigC2y3KxNV5WJ6n2TneHEPAZg5Z5JfcAKG%0AbD1%2B126h%2FhudoaW0RoKqfFgMF0%2BO2721PQn8i1BrNgzou%2F3NHIgYa5cg3Zqx%0A94bYvRhwciHqDnOMfHcTBvN%2F8STamivoGvf9EQWqyySwMVlYFpc3O0EqgZY%3D&1=1" target="_blank">
-                                            <span style="Margin: 0;">Unsubscribe | </span>
+                                            <span id="footer-links" style="Margin: 0;">Unsubscribe | </span>
                                         </a>
                                         <a href="https://help.hbomax.com/us" target="_blank">
-                                            <span style="Margin: 0;">Help Center</span>
+                                            <span id="footer-links" style="Margin: 0;">Help Center</span>
                                         </a>
                                     </td>
                                 </tr>
